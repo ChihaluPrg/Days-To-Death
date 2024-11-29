@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Days To Death</title>
+    
+  </head>
+  <body>
+    <div class="title">
+        <h1>死ぬまでの残り日数</h1>
+        <p>※平均寿命での計算※</p>
+    </div>
+
+    <div id="input">
+        <label for="gender">性別</label>
+        <select id="gender">
+            <option value="male">男性</option>
+            <option value="female">女性</option>
+        </select>
+    
+        <label for="year">年</label>
+        <input type="text" id="year">
+    
+        <label for="month">月</label>
+        <input type="text" id="month">
+    
+        <label for="day">日</label>
+        <input type="text" id="day">
+    
+        <input type="button" value="計算する" id="btn">
+    </div>
+    
+    <!-- 結果を表示するための要素 -->
+    <div id="result"></div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
